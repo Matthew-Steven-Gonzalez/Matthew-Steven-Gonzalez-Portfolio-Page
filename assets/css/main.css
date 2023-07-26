@@ -2108,7 +2108,7 @@ input, select, textarea {
 
 			#main > section.one {
 				background-color: #334;
-				background-image: url("/images/background4.jpg");
+				background-image: url("images/background4.jpg");
 				min-height: 90%;
 			}
 
