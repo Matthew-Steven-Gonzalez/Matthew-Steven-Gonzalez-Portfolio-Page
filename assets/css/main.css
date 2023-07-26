@@ -2107,7 +2107,8 @@ input, select, textarea {
 			}
 
 			#main > section.one {
-				background-image: url("/images/background2.jpg");
+				background-color: #334;
+				background-image: url("/images/background4.jpg");
 				min-height: 90%;
 			}
 
