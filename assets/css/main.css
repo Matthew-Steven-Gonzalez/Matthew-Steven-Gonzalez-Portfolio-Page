@@ -110,7 +110,7 @@ input, select, textarea {
 		color: #888;
 	}
 
-	h1, h3, h4, h5, h6 {
+	h1,h2, h3, h4, h5, h6 {
 		font-weight: 300;
 		color: rgb(5, 5, 5);
 		line-height: 1.5em;
@@ -1772,8 +1772,8 @@ input, select, textarea {
 		}
 
 		.image.featured {
-			display: block;
-			width: 100%;
+			/* display: block; */
+			/* width: 100%; */
 			margin: 0 0 3em 0;
 		}
 
@@ -2028,7 +2028,7 @@ input, select, textarea {
 				}
 
 					#nav ul li a.active span:before {
-						color: #5879de;
+						color: blanchedalmond;
 					}
 
 /* Footer */
@@ -2108,15 +2108,43 @@ input, select, textarea {
 
 			#main > section.one {
 				background-image: url("/images/background2.jpg");
+				min-height: 90%;
 			}
 
 			#main > section.two {
-				background-color: #333;
+				background-color:#334;
+			}
+
+			#main > section.two h2, p{
+				color:blanchedalmond;
+				font-weight: bold;
 			}
 
 			#main > section.three {
 				background-color: #334;
 			}
+
+			#main > section.three h2, p{
+				color:blanchedalmond;
+				font-weight: bold;
+			}
+
+			#main > section.four {
+				background-color: #334;
+			}
+
+			#main > section.four ul {
+				display: inline-block;
+			}
+
+			#main > section.four h2, p{
+				color:blanchedalmond;
+				font-weight: bold;
+			}
+
+			
+
+			
 
 /* Wide */
 
